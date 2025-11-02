@@ -1,2 +1,23 @@
+/* Flex container */
+.holder {
+  display: flex;                  /* Enable flexbox */
+  justify-content: space-evenly;  /* Evenly space items across the row */
+  align-items: center;            /* Vertically align items */
+  flex-wrap: wrap;                /* Move extra items to next row */
+  min-height: 100vh;              /* Optional: take full height for nice centering */
+  background-color: #f0f0f0;      /* Optional background for visibility */
+}
+
+/* Flex items */
+.item {
+  width: 120px;
+  height: 120px;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  line-height: 120px;
+  font-weight: bold;
+  border-radius: 8px;
+}
 
 /* Your CSS Code here. */
